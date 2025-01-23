@@ -1,0 +1,5 @@
+def geometric(a, r):
+    total = 0
+    for i in range(0,25):
+        total = total + a*(r**i)
+    return total
